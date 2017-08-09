@@ -1,0 +1,15 @@
+X-Sender: sprotsstore@example.com
+X-Receiver: orders@example.com
+MIME-Version: 1.0
+From: sprotsstore@example.com
+To: orders@example.com
+Date: 4 Aug 2017 19:24:52 +0700
+Subject: New order submitted!
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+A new order has been submitted=0D=0A---=0D=0AItems:=0D=0A1 x Kaya=
+k (subtotal: $275.001 x Lifejacket (subtotal: $48.95Total order v=
+alue: $323.95---=0D=0AShip to:=0D=0ABernard=0D=0AHome=0D=0A=0D=0A=
+=0D=0AGotham=0D=0AWashington=0D=0AUS=0D=0A=0D=0A---=0D=0AGift wra=
+p: No

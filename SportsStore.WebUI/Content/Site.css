@@ -1,0 +1,150 @@
+﻿BODY {
+    font-family: Cambria, Georgia, "Times New Roman";
+    margin: 0;
+}
+
+#header .title, .item H3, .item H4, .pager A {
+    font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
+}
+
+#header {
+    background-color: #444;
+    border-bottom: 2px solid #111;
+    color: White;
+}
+
+    #header .title {
+        font-size: 2em;
+        padding: .6em;
+    }
+
+#content {
+    border-left: 2px solid gray;
+    margin-left: 9em;
+    padding: 1em;
+}
+
+#categories {
+    float: left;
+    width: 8em;
+    padding: .3em;
+}
+
+.item {
+    border-top: 1px dotted gray;
+    padding-top: .7em;
+    margin-bottom: .7em;
+}
+
+    .item:first-child {
+        border-top: none;
+        padding-top: 0;
+    }
+
+    .item H3 {
+        font-size: 1.3em;
+        margin: 0 0 .25em 0;
+    }
+
+    .item H4 {
+        font-size: 1.1em;
+        margin: .4em 0 0 0;
+    }
+
+.pager {
+    text-align: right;
+    border-top: 2px solid silver;
+    padding: .5em 0 0 0;
+    margin-top: 1em;
+}
+
+    .pager A {
+        font-size: 1.1em;
+        color: #666;
+        text-decoration: none;
+        padding: 0 .4em 0 .4em;
+    }
+
+        .pager A:hover {
+            background-color: Silver;
+        }
+
+        .pager A.selected {
+            background-color: #353535;
+            color: White;
+        }
+
+#categories A {
+    font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial;
+    display: block;
+    text-decoration: none;
+    padding: .6em;
+    color: Black;
+    border-bottom: 1px solid silver;
+}
+
+    #categories A.selected {
+        background-color: #666;
+        color: White;
+    }
+
+    #categories A:hover {
+        background-color: #CCC;
+    }
+
+    #categories A.selected:hover {
+        background-color: #666;
+    }
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.item form {
+    float: right;
+}
+
+.item input {
+    color: White;
+    background-color: #333;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+H2 {
+    margin-top: 0.3em
+}
+
+tfoot td {
+    border-top: 1px dotted gray;
+    font-weight: bold;
+}
+
+.actionButtons a, input.actionButtons {
+    font: .8em Arial;
+    color: White;
+    margin: .5em;
+    text-decoration: none;
+    padding: .15em 1.5em .2em 1.5em;
+    background-color: #353535;
+    border: 1px solid black;
+}
+
+#cart {
+    float: right;
+    margin: .8em;
+    color: Silver;
+    background-color: #555;
+    padding: .5em .5em .5em 1em;
+}
+
+    #cart a {
+        text-decoration: none;
+        padding: .4em 1em .4em 1em;
+        line-height: 2.1em;
+        margin-left: .5em;
+        background-color: #333;
+        color: White;
+        border: 1px solid black;
+    }
